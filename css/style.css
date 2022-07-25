@@ -1,0 +1,25 @@
+/* google font linking */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a.navbar-brand {
+    color: #3E3E3E;
+}
+
+a.nav-link {
+    color: #3E3E3E;
+}
+
+@media only screen and (max-width: 576px) {
+    .carousel-item{
+        height: 100vh;
+    }
+    .carousel-item img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
