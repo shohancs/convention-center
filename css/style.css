@@ -13,6 +13,12 @@ a.nav-link {
     color: #3E3E3E;
 }
 
+.hide-btn{
+    display: none;
+}
+.toast:not(.show) {
+    display: grid;
+}
 @media only screen and (max-width: 576px) {
     .carousel-item{
         height: 100vh;
@@ -21,5 +27,17 @@ a.nav-link {
         height: 100%;
         object-fit: cover;
         object-position: center;
+    }
+    .row{
+        flex-direction: column-reverse;
+    }
+    span.d-flex.hide {
+        justify-content: space-around;
+    }
+    .hide-btn{
+        display: inline;
+    }
+    .weeding-btn{
+        display: none;
     }
 }
