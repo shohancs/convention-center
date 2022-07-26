@@ -53,4 +53,8 @@ a.nav-link {
     .question-part .row{
         flex-direction: column;
     }
+
+    footer{
+        text-align: center;
+    }
 }
