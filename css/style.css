@@ -19,6 +19,14 @@ a.nav-link {
 .toast:not(.show) {
     display: grid;
 }
+
+.badge-part {
+    position: absolute;
+    top: 1310px;
+    z-index: 2;
+    left: 65%;
+}
+
 @media only screen and (max-width: 576px) {
     .carousel-item{
         height: 100vh;
@@ -39,5 +47,8 @@ a.nav-link {
     }
     .weeding-btn{
         display: none;
+    }
+    .package-part .row{
+        flex-direction: column;
     }
 }
