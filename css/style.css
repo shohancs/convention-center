@@ -48,7 +48,8 @@ a.nav-link {
     .weeding-btn{
         display: none;
     }
-    .package-part .row{
+    .package-part .row,
+    .client-part .row{
         flex-direction: column;
     }
 }
