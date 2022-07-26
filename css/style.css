@@ -53,8 +53,25 @@ a.nav-link {
     .question-part .row{
         flex-direction: column;
     }
-
     footer{
         text-align: center;
+    }
+    .badge-part {
+        top: 2754px;
+        left: 82%;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .badge-part {
+        top: 2474px;
+        left: 76%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .badge-part {
+        top: 1562px;
+        left: 39%;
     }
 }
